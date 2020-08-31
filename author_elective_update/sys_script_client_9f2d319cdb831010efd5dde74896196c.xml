@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Version 2 of "NeedIt Request Type Options" created under studio.</description>
+        <field>u_choice_3</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>V2-NeedIt Request Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 14:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f2d319cdb831010efd5dde74896196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>V2-NeedIt Request Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIT" source="x_425569_needit">7b10bdbbdbf25010efd5dde7489619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT">7b10bdbbdbf25010efd5dde7489619f2</sys_scope>
+        <sys_update_name>sys_script_client_9f2d319cdb831010efd5dde74896196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 14:07:03</sys_updated_on>
+        <table>x_425569_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIT">7b10bdbbdbf25010efd5dde7489619f2</application>
+        <file_path/>
+        <instance_id>e7bb6fb0db5f5b00b2e05d00cf961957</instance_id>
+        <instance_name>dev64414</instance_name>
+        <name>sys_script_client_9f2d319cdb831010efd5dde74896196c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Version 2 of "NeedIt Request Type Options" created under studio.&lt;/description&gt;&lt;field&gt;u_choice_3&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;V2-NeedIt Request Type Options&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-31 14:07:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9f2d319cdb831010efd5dde74896196c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;V2-NeedIt Request Type Options&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIT" source="x_425569_needit"&gt;7b10bdbbdbf25010efd5dde7489619f2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIT"&gt;7b10bdbbdbf25010efd5dde7489619f2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9f2d319cdb831010efd5dde74896196c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-31 14:07:03&lt;/sys_updated_on&gt;&lt;table&gt;x_425569_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-645530252</payload_hash>
+        <record_name>V2-NeedIt Request Type Options</record_name>
+        <reverted_from/>
+        <source>558bc9d8db031010efd5dde748961904</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 14:07:03</sys_created_on>
+        <sys_id>290e79dcdb831010efd5dde74896199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17444d7bd030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 14:07:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>610e79dc498310105721d6254550479e</update_guid>
+        <update_guid_history>610e79dc498310105721d6254550479e:-645530252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 14:13:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5ffc246c715c4ca6b74ac70afcb140c1</sys_id>
+        <sys_metadata>9f2d319cdb831010efd5dde74896196c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>V2-NeedIt Request Type Options</sys_name>
+        <sys_package display_value="NeedIT" source="x_425569_needit">7b10bdbbdbf25010efd5dde7489619f2</sys_package>
+        <sys_parent display_value="NeedIT">8214b844dbcb5010efd5dde7489619da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIT">7b10bdbbdbf25010efd5dde7489619f2</sys_scope>
+        <sys_scope_delete display_value="">511a1f502eff4a21960ba0d765314779</sys_scope_delete>
+        <sys_update_name>sys_script_client_9f2d319cdb831010efd5dde74896196c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9f2d319cdb831010efd5dde74896196c">290e79dcdb831010efd5dde74896199e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 14:13:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -152,13 +152,32 @@
             <sys_updated_on>2020-08-30 18:06:23</sys_updated_on>
             <value>your_choice2</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_4</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_425569_needit_needit</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 16:38:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6902a14db071010efd5dde748961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 16:38:08</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_choice_4</element>
             <name>x_425569_needit_needit</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-08-30 18:06:23</sys_created_on>
-            <sys_id>ed3be1c4db4f5010efd5dde748961988</sys_id>
+            <sys_id>027b45dcdb031010efd5dde74896190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_choice_4</sys_name>
             <sys_package display_value="NeedIT" source="x_425569_needit">7b10bdbbdbf25010efd5dde7489619f2</sys_package>
